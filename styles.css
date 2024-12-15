@@ -1,0 +1,68 @@
+* {
+       box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+body {
+    background-image: url(images/m8.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 60%;
+    display: flex;
+    gap: 10vh;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.nav-link {
+    color: white; 
+    text-decoration: none; 
+  }
+
+#header-img {
+    width: 20vh;
+    padding-left: 10px;
+    border-radius: 80%;
+}
+
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold; 
+    font-family: Lucida;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    
+}
+ 
+.gift {
+  padding: 10px 20px;  
+  font-size: 20px; 
+  cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

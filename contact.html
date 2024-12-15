@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <img src="images/l1.PNG" alt="logo" id="header-img">
+    <div>
+        <nav>
+            <a href="index.html" class="nav-link">HomePage</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="products.html"  class="nav-link">Products</a>
+            <a href="contact.html"  class="nav-link">Contacts</a>
+        </nav>
+    </div>
+ <div>
+    <p>Please fill out this form with the required information</p>
+    <form >
+        <fieldset>
+        <label for="first-name">Enter Your First Name:
+            <input type="text" name="first-name">
+            </label>
+
+            <label for="last-name">Enter Your Last Name:
+                <input type="text" name="last-name">
+                </label>
+
+                <label for="email">Enter Your Email:
+                    <input type="email" name="email">
+                    </label>
+
+                    <label for="location">Enter Your Location:
+                        <input type="text" name="location">
+                        </label>
+
+                        <label for="address">Enter Your Address:
+                            <input type="text" name="address">
+                            </label>
+
+                            <label for="size">What Is Your Shoe Size:
+                                <input type="text" name="address">
+                                </label>
+
+                        
+                    <label for="payment">Mode of payment:
+                        <select name="payment" id="payment">
+                            <option value="">Select One</option>
+                            <option value="1">Credit/Debit Cards</option>
+                            <option value="2">Digital Currencies</option>
+                            <option value="3">Mobile Payment</option>
+                            <option value="4">Bank-Based Transfers</option>
+                        </select>
+                        </label>
+
+
+                        <label for="terms-and-conditions">
+                            <p class="agreement">
+                            Please read the terms and conditions
+                            </p>
+                            <input type="checkbox" required name="terms-and-conditions" class="agreement" />
+                             I accept
+                            the 
+                            <a href="termsAndCondition.html">
+                                terms and conditions</a>
+                          </label>
+                        <input type="submit" value="Submit" />
+            </fieldset>
+    </form>
+    <div class="gratitude">
+        Thank You for shopping with us
+    </div>
+ </div>
+</body>
+</html>

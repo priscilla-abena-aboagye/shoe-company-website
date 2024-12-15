@@ -1,0 +1,46 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url(images/l1.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(6px);     
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold; 
+    color: red;
+}
+
+h1, p, ul {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-weight: bold; 
+}
+
+input[type="submit"] {
+    display: block;
+    width: 20%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+  }
+
+.agreement {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
