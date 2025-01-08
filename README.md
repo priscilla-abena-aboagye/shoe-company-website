@@ -3,6 +3,10 @@ This website showcases a diverse collection of footwear for men, women, and chil
 
 ---
 
+## Technologies Used
+- HTML: For the structure and build up of the website.
+- CSS : For styling and making the website readable.
+
 ## Features
 
 1. **Home Page**:
