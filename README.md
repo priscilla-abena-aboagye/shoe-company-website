@@ -3,12 +3,6 @@ This website showcases a diverse collection of footwear for men, women, and chil
 
 ---
 
-## Technologies Used
-- **HTML**: Utilized for structuring and organizing the website's content effectively.
-- **CSS**: Employed for enhancing the website's visual presentation and ensuring readability.
-
------
-
 ## Features
 
 1. **Home Page**:
